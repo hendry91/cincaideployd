@@ -1,7 +1,7 @@
 var deployd = require('deployd');
 
 var server = deployd({
-  port: process.env.PORT || 9090,
+  port: process.env.PORT || 8080,
   env: 'staging',
   db: {
     host: 'ds053894.mongolab.com',
